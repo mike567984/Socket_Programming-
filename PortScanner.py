@@ -1,6 +1,13 @@
+#!/bin/python3
 import socket
 import threading
+from datetime import datetime
 from queue import Queue
+
+#make It more script like
+print("-" * 50)
+print("Time started: " + str(datetime.now()))
+print("-" * 50)
 
 print("Enter in the ipv4 or domain name  \ntest your own computer with loopback address from 127.0.0.1-127.225.225.225")
 # the ip you want to scan
